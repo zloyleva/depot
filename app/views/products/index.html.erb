@@ -12,7 +12,7 @@
 
         <td class="list_description">
           <h3><%= product.title %></h3>
-          <%= product.description %>
+          <%= truncate(product.description, length: 500, omission: '...  '){link_to '>> Read more <<', product} %>
         </td>
         <td>
           <%= product.price %>
