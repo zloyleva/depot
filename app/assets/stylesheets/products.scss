@@ -4,27 +4,28 @@
 .products {
   table {
     border-collapse: collapse;
-  }
-   table tr td {
-  padding: 5px;
-  vertical-align: top;
-  }
-  .list_image {
-  width: 60px;
-  height: auto;
+    tr td {
+      padding: 10px;
+      vertical-align: middle;
+      }
+    }
+  .list_image{
+    vertical-align: middle;
+    img{
+    width: 250px;
+    height: auto;
+    }
   }
   .list_description {
   width: 60%;
+  padding-bottom: 16px;
     dl {
     margin: 0;
     }
-    dt {
+    h3 {
     color: #244;
     font-weight: bold;
     font-size: larger;
-    }
-    dd {
-    margin: 0;
     }
   }
   .list_actions {
@@ -33,9 +34,9 @@
   padding-left: 1em;
   }
   .list_line_even {
-  background: #e0f8f8;
+  background: #f8f8f8;
   }
   .list_line_odd {
-  background: #f8b0f8;
+  background: #ddd;
   }
 }
